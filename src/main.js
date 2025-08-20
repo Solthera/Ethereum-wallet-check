@@ -7,7 +7,7 @@ const getAccAddress = document.getElementById("accAddress");
 const getAccBalance = document.getElementById("accBalance");
 const getconnectedWallet = document.getElementById("connectedWallet");
  
-const provider = new ethers.JsonRpcProvider('https://sepolia.infura.io/v3/dadcaf94e1e44df4b628d187ab090c70')
+const provider = new ethers.JsonRpcProvider('https://mainnet.infura.io/v3/dadcaf94e1e44df4b628d187ab090c70')
 
 
 // Wallet connection & address input
